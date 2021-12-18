@@ -2581,7 +2581,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_human
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { is_orc_trigger = yes }
 					OR = {
@@ -2595,7 +2595,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_orc
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_ogre }
 					OR = {
@@ -2620,7 +2620,7 @@ add_blood_trait_effect = {
 					set_graphical_culture = maghar
 				}
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { is_high_elf_trigger = yes }
 					OR = {
@@ -2634,7 +2634,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_high_elf
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { is_eredar_trigger = yes }
 					OR = {
@@ -2648,7 +2648,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_draenei
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_vrykul }
 					OR = {
@@ -2662,7 +2662,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_vrykul
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_magnataur }
 					OR = {
@@ -2676,7 +2676,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_magnataur
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_taunka }
 					OR = {
@@ -2690,7 +2690,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_taunka
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_night_elf }
 					OR = {
@@ -2704,7 +2704,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_night_elf
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_tauren }
 					OR = {
@@ -2718,7 +2718,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_tauren
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_centaur }
 					OR = {
@@ -2732,7 +2732,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_centaur
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_frostnymph }
 					OR = {
@@ -2746,7 +2746,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_frostnymph
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = {
 						trait = creature_dryad
@@ -2762,7 +2762,7 @@ add_blood_trait_effect = {
 				}
 				add_trait = blood_dryad
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { trait = creature_highborne }
 					OR = {
@@ -2775,6 +2775,229 @@ add_blood_trait_effect = {
 					}
 				}
 				add_trait = blood_highborne
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_blue_whelp
+						trait = creature_blue_drake
+						trait = creature_blue_dragon
+						trait = creature_blue_wyrm
+					}
+					OR = {
+						event_target:target_father = { trait = creature_blue_wyrm }
+						event_target:target_mother = { trait = creature_blue_wyrm }
+						AND = {
+							event_target:target_father = { trait = blood_blue_dragon }
+							event_target:target_mother = { trait = blood_blue_dragon }
+						}
+					}
+				}
+				add_trait = blood_blue_dragon
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_red_whelp
+						trait = creature_red_drake
+						trait = creature_red_dragon
+						trait = creature_red_wyrm
+					}
+					OR = {
+						event_target:target_father = { trait = creature_red_wyrm }
+						event_target:target_mother = { trait = creature_red_wyrm }
+						AND = {
+							event_target:target_father = { trait = blood_red_dragon }
+							event_target:target_mother = { trait = blood_red_dragon }
+						}
+					}
+				}
+				add_trait = blood_red_dragon
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_green_whelp
+						trait = creature_green_drake
+						trait = creature_green_dragon
+						trait = creature_green_wyrm
+					}
+					OR = {
+						event_target:target_father = { trait = creature_green_wyrm }
+						event_target:target_mother = { trait = creature_green_wyrm }
+						AND = {
+							event_target:target_father = { trait = blood_green_dragon }
+							event_target:target_mother = { trait = blood_green_dragon }
+						}
+					}
+				}
+				add_trait = blood_green_dragon
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_bronze_whelp
+						trait = creature_bronze_drake
+						trait = creature_bronze_dragon
+						trait = creature_bronze_wyrm
+					}
+					OR = {
+						event_target:target_father = { trait = creature_bronze_wyrm }
+						event_target:target_mother = { trait = creature_bronze_wyrm }
+						AND = {
+							event_target:target_father = { trait = blood_bronze_dragon }
+							event_target:target_mother = { trait = blood_bronze_dragon }
+						}
+					}
+				}
+				add_trait = blood_bronze_dragon
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_black_whelp
+						trait = creature_black_drake
+						trait = creature_black_dragon
+						trait = creature_black_wyrm
+					}
+					OR = {
+						event_target:target_father = { trait = creature_black_wyrm }
+						event_target:target_mother = { trait = creature_black_wyrm }
+						AND = {
+							event_target:target_father = { trait = blood_black_dragon }
+							event_target:target_mother = { trait = blood_black_dragon }
+						}
+					}
+				}
+				add_trait = blood_black_dragon
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = being_demon
+					}
+					OR = {
+						event_target:target_father = { trait = being_demon }
+						event_target:target_mother = { trait = being_demon }
+						AND = {
+							event_target:target_father = { trait = blood_demon }
+							event_target:target_mother = { trait = blood_demon }
+						}
+					}
+				}
+				add_trait = blood_demon
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_dwarf
+					}
+					OR = {
+						event_target:target_father = { trait = creature_dwarf }
+						event_target:target_mother = { trait = creature_dwarf }
+						AND = {
+							event_target:target_father = { trait = blood_dwarf }
+							event_target:target_mother = { trait = blood_dwarf }
+						}
+					}
+				}
+				add_trait = blood_dwarf
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_furbolg
+					}
+					OR = {
+						event_target:target_father = { trait = creature_furbolg }
+						event_target:target_mother = { trait = creature_furbolg }
+						AND = {
+							event_target:target_father = { trait = blood_furbolg }
+							event_target:target_mother = { trait = blood_furbolg }
+						}
+					}
+				}
+				add_trait = blood_furbolg
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_goblin
+					}
+					OR = {
+						event_target:target_father = { trait = creature_goblin }
+						event_target:target_mother = { trait = creature_goblin }
+						AND = {
+							event_target:target_father = { trait = blood_goblin }
+							event_target:target_mother = { trait = blood_goblin }
+						}
+					}
+				}
+				add_trait = blood_goblin
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_murloc
+					}
+					OR = {
+						event_target:target_father = { trait = creature_murloc }
+						event_target:target_mother = { trait = creature_murloc }
+						AND = {
+							event_target:target_father = { trait = blood_murloc }
+							event_target:target_mother = { trait = blood_murloc }
+						}
+					}
+				}
+				add_trait = blood_murloc
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_naga
+					}
+					OR = {
+						event_target:target_father = { trait = creature_naga }
+						event_target:target_mother = { trait = creature_naga }
+						AND = {
+							event_target:target_father = { trait = blood_naga }
+							event_target:target_mother = { trait = blood_naga }
+						}
+					}
+				}
+				add_trait = blood_naga
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_sethrak
+					}
+					OR = {
+						event_target:target_father = { trait = creature_sethrak }
+						event_target:target_mother = { trait = creature_sethrak }
+						AND = {
+							event_target:target_father = { trait = blood_sethrak }
+							event_target:target_mother = { trait = blood_sethrak }
+						}
+					}
+				}
+				add_trait = blood_sethrak
+			}
+			if = {
+				limit = {
+					NOR = { 
+						trait = creature_troll
+					}
+					OR = {
+						event_target:target_father = { trait = creature_troll }
+						event_target:target_mother = { trait = creature_troll }
+						AND = {
+							event_target:target_father = { trait = blood_troll }
+							event_target:target_mother = { trait = blood_troll }
+						}
+					}
+				}
+				add_trait = blood_troll
 			}
 		}
 	}

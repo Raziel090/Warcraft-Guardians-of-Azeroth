@@ -4126,10 +4126,11 @@ has_blood_trait_trigger = {
 		trait = blood_dryad
 		trait = blood_frostnymph
 		trait = blood_highborne
+		trait = blood_blue_dragon
 	}
 }
 has_prev_blood_trigger = {
-	trigger_if = { limit = { trait = blood_human 				} PREV = { trait = blood_human 					} }
+	trigger_if = { 	 limit = { trait = blood_human 		} PREV = { trait = blood_human 					} }
 	trigger_else_if = { limit = { trait = blood_orc 			} PREV = { trait = blood_orc 					} }
 	trigger_else_if = { limit = { trait = blood_ogre 			} PREV = { trait = blood_ogre 					} }
 	trigger_else_if = { limit = { trait = blood_high_elf 		} PREV = { trait = blood_high_elf 				} }
@@ -4137,12 +4138,25 @@ has_prev_blood_trigger = {
 	trigger_else_if = { limit = { trait = blood_vrykul 		} PREV = { trait = blood_vrykul 				} }
 	trigger_else_if = { limit = { trait = blood_magnataur 	} PREV = { trait = blood_magnataur 				} }
 	trigger_else_if = { limit = { trait = blood_taunka 		} PREV = { trait = blood_taunka 				} }
-	trigger_else_if = { limit = { trait = blood_night_elf 	} PREV = { trait = blood_night_elf 				} }
+	trigger_else_if = { limit = { trait = blood_night_elf 		} PREV = { trait = blood_night_elf 				} }
 	trigger_else_if = { limit = { trait = blood_tauren 		} PREV = { trait = blood_tauren 				} }
 	trigger_else_if = { limit = { trait = blood_centaur 		} PREV = { trait = blood_centaur 				} }
 	trigger_else_if = { limit = { trait = blood_dryad 		} PREV = { trait = blood_dryad 				} }
 	trigger_else_if = { limit = { trait = blood_frostnymph 	} PREV = { trait = blood_frostnymph 			} }
 	trigger_else_if = { limit = { trait = blood_highborne 	} PREV = { trait = blood_highborne 				} }
+	trigger_else_if = { limit = { trait = blood_blue_dragon 	} PREV = { trait = blood_blue_dragon 				} }
+	trigger_else_if = { limit = { trait = blood_red_dragon 	} PREV = { trait = blood_red_dragon 				} }
+	trigger_else_if = { limit = { trait = blood_green_dragon 	} PREV = { trait = blood_green_dragon 				} }
+	trigger_else_if = { limit = { trait = blood_bronze_dragon } PREV = { trait = blood_bronze_dragon 				} }
+	trigger_else_if = { limit = { trait = blood_black_dragon 	} PREV = { trait = blood_black_dragon 				} }
+	trigger_else_if = { limit = { trait = blood_demon	 	} PREV = { trait = blood_demon 				} }
+	trigger_else_if = { limit = { trait = blood_dwarf		 	} PREV = { trait = blood_dwarf 				} }
+	trigger_else_if = { limit = { trait = blood_furbolg	 	} PREV = { trait = blood_furbolg 				} }
+	trigger_else_if = { limit = { trait = blood_goblin		} PREV = { trait = blood_goblin 				} }
+	trigger_else_if = { limit = { trait = blood_murloc		} PREV = { trait = blood_murloc 				} }
+	trigger_else_if = { limit = { trait = blood_naga			} PREV = { trait = blood_naga 				} }
+	trigger_else_if = { limit = { trait = blood_sethrak		} PREV = { trait = blood_sethrak 				} }
+	trigger_else_if = { limit = { trait = blood_troll			} PREV = { trait = blood_troll 				} }
 
 	# Fallback
 	trigger_else = {

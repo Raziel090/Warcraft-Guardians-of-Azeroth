@@ -2222,6 +2222,46 @@ creature_frostnymph_opinion;Frost Nymph Opinion;Opinion nymphe de givre;Frostnym
 opinion_of_creature_frostnymph;Opinion of Frost Nymphs;Opinion des nymphes de givre;Meinung der Frostnymphen;;;;;;;;;;;x
 creature_highborne_opinion;Highborne Opinion;Opinion bien-née;Hochgeborenen-Meinung;;;;;;;;;;;x
 opinion_of_creature_highborne;Opinion of Highborne;Opinion des Biens-nés;Meinung der Hochgeborenen;;;;;;;;;;;x
+creature_blue_whelp_opinion;Blue Dragon Whelp Opinion;;;;;;;;;;;;;x
+opinion_of_creature_blue_whelp;Opinion of Blue Dragon Whelp;;;;;;;;;;;;;x
+creature_blue_drake_opinion;Blue Drake Opinion;;;;;;;;;;;;;x
+opinion_of_creature_blue_drake;Opinion of Blue Drake;;;;;;;;;;;;;x
+creature_blue_dragon_opinion;Blue Dragon Opinion;;;;;;;;;;;;;x
+opinion_of_creature_blue_dragon;Opinion of Blue Dragon;;;;;;;;;;;;;x
+creature_blue_wyrm_opinion;Blue Wyrm Opinion;;;;;;;;;;;;;x
+opinion_of_creature_blue_wyrm;Opinion of Blue Wyrm;;;;;;;;;;;;;x
+creature_red_whelp_opinion;Red Dragon Whelp Opinion;;;;;;;;;;;;;x
+opinion_of_creature_red_whelp;Opinion of Red Dragon Whelp;;;;;;;;;;;;;x
+creature_red_drake_opinion;Red Drake Opinion;;;;;;;;;;;;;x
+opinion_of_creature_red_drake;Opinion of Red Drake;;;;;;;;;;;;;x
+creature_red_dragon_opinion;Red Dragon Opinion;;;;;;;;;;;;;x
+opinion_of_creature_red_dragon;Opinion of Red Dragon;;;;;;;;;;;;;x
+creature_red_wyrm_opinion;Red Wyrm Opinion;;;;;;;;;;;;;x
+opinion_of_creature_red_wyrm;Opinion of Red Wyrm;;;;;;;;;;;;;x
+creature_green_whelp_opinion;Green Dragon Whelp Opinion;;;;;;;;;;;;;x
+opinion_of_creature_green_whelp;Opinion of Green Dragon Whelp;;;;;;;;;;;;;x
+creature_green_drake_opinion;Green Drake Opinion;;;;;;;;;;;;;x
+opinion_of_creature_green_drake;Opinion of Green Drake;;;;;;;;;;;;;x
+creature_green_dragon_opinion;Green Dragon Opinion;;;;;;;;;;;;;x
+opinion_of_creature_green_dragon;Opinion of Green Dragon;;;;;;;;;;;;;x
+creature_green_wyrm_opinion;Green Wyrm Opinion;;;;;;;;;;;;;x
+opinion_of_creature_green_wyrm;Opinion of Green Wyrm;;;;;;;;;;;;;x
+creature_bronze_whelp_opinion;Bronze Dragon Whelp Opinion;;;;;;;;;;;;;x
+opinion_of_creature_bronze_whelp;Opinion of Bronze Dragon Whelp;;;;;;;;;;;;;x
+creature_bronze_drake_opinion;Bronze Drake Opinion;;;;;;;;;;;;;x
+opinion_of_creature_bronze_drake;Opinion of Bronze Drake;;;;;;;;;;;;;x
+creature_bronze_dragon_opinion;Bronze Dragon Opinion;;;;;;;;;;;;;x
+opinion_of_creature_bronze_dragon;Opinion of Bronze Dragon;;;;;;;;;;;;;x
+creature_bronze_wyrm_opinion;Bronze Wyrm Opinion;;;;;;;;;;;;;x
+opinion_of_creature_bronze_wyrm;Opinion of Bronze Wyrm;;;;;;;;;;;;;x
+creature_black_whelp_opinion;Black Dragon Whelp Opinion;;;;;;;;;;;;;x
+opinion_of_creature_black_whelp;Opinion of Black Dragon Whelp;;;;;;;;;;;;;x
+creature_black_drake_opinion;Black Drake Opinion;;;;;;;;;;;;;x
+opinion_of_creature_black_drake;Opinion of Black Drake;;;;;;;;;;;;;x
+creature_black_dragon_opinion;Black Dragon Opinion;;;;;;;;;;;;;x
+opinion_of_creature_black_dragon;Opinion of Black Dragon;;;;;;;;;;;;;x
+creature_black_wyrm_opinion;Black Wyrm Opinion;;;;;;;;;;;;;x
+opinion_of_creature_black_wyrm;Opinion of Black Wyrm;;;;;;;;;;;;;x
 RULE_INTERRACIAL_MARRIAGES;§RWarCraft§!: Interracial Marriages;§RWarCraft§! : Mariages interraciaux;§RWarCraft§!: Mischehen;;;;;;;;;;;x
 RULE_TEXT_RESTRICTED;Restricted;Avec restriction;Eingeschränkt;;;;;;;;;;;x
 RULE_INTERRACIAL_MARRIAGES_RESTRICTED_DESC;Interracial marriages are available only between specific races.;Les mariages interraciaux ne sont possibles qu'entre des races spécifiques.;Mischehen sind nur zwischen bestimmten Rassen möglich.;;;;;;;;;;;x

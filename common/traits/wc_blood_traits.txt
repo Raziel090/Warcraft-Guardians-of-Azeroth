@@ -174,3 +174,200 @@ blood_highborne = {
 	random = no
 	customizer = no
 }
+blood_blue_dragon = {
+	stewardship = 1
+	learning = 2
+	fertility = 0.1
+	health = 0.5
+	combat_rating = 10
+	
+	creature_blue_whelp_opinion = 10
+	creature_blue_drake_opinion = 10
+	creature_blue_dragon_opinion = 10
+	creature_blue_wyrm_opinion = 10
+	opinion_of_creature_blue_whelp = 10
+	opinion_of_creature_blue_drake = 10
+	opinion_of_creature_blue_dragon = 10
+	opinion_of_creature_blue_wyrm = 10
+	
+	random = no
+	customizer = no
+}
+blood_red_dragon = {
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	fertility = 0.1
+	health = 0.5
+	combat_rating = 10
+	
+	creature_red_whelp_opinion = 10
+	creature_red_drake_opinion = 10
+	creature_red_dragon_opinion = 10
+	creature_red_wyrm_opinion = 10
+	opinion_of_creature_red_whelp = 10
+	opinion_of_creature_red_drake = 10
+	opinion_of_creature_red_dragon = 10
+	opinion_of_creature_red_wyrm = 10
+	
+	random = no
+	customizer = no
+}
+blood_green_dragon = {
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	fertility = 0.1
+	health = 0.5
+	combat_rating = 10
+	
+	creature_green_whelp_opinion = 10
+	creature_green_drake_opinion = 10
+	creature_green_dragon_opinion = 10
+	creature_green_wyrm_opinion = 10
+	opinion_of_creature_green_whelp = 10
+	opinion_of_creature_green_drake = 10
+	opinion_of_creature_green_dragon = 10
+	opinion_of_creature_green_wyrm = 10
+	
+	random = no
+	customizer = no
+}
+blood_bronze_dragon = {
+	martial = 1
+	stewardship = 2
+	learning = 1
+	fertility = 0.1
+	health = 0.5
+	combat_rating = 10
+	
+	creature_bronze_whelp_opinion = 10
+	creature_bronze_drake_opinion = 10
+	creature_bronze_dragon_opinion = 10
+	creature_bronze_wyrm_opinion = 10
+	opinion_of_creature_bronze_whelp = 10
+	opinion_of_creature_bronze_drake = 10
+	opinion_of_creature_bronze_dragon = 10
+	opinion_of_creature_bronze_wyrm = 10
+	
+	random = no
+	customizer = no
+}
+blood_black_dragon = {
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	fertility = 0.1
+	health = 0.5
+	combat_rating = 10
+	
+	creature_black_whelp_opinion = 10
+	creature_black_drake_opinion = 10
+	creature_black_dragon_opinion = 10
+	creature_black_wyrm_opinion = 10
+	opinion_of_creature_black_whelp = 10
+	opinion_of_creature_black_drake = 10
+	opinion_of_creature_black_dragon = 10
+	opinion_of_creature_black_wyrm = 10
+	
+	random = no
+	customizer = no
+}
+blood_demon = {
+	diplomacy = -1
+	martial = 1
+	fertility = -0.1
+	health = 0.5
+	combat_rating = 10
+	
+	general_opinion = -10
+	fel_group_opinion = 10
+	necromancy_group_opinion = 10
+	void_group_opinion = 10
+	helya_opinion = 10
+	
+	random = no
+	customizer = no
+}
+blood_dwarf = {
+	diplomacy = -1
+	stewardship = 1
+	fertility = -0.15
+	health = 0.75
+	
+	creature_dwarf_opinion = 10
+	opinion_of_creature_dwarf = 10
+
+	random = no
+	customizer = no
+}
+blood_furbolg = {
+	stewardship = -1
+	intrigue = -1
+	combat_rating = 15
+	
+	creature_furbolg_opinion = 10
+	opinion_of_creature_furbolg = 10
+	
+	random = no
+	customizer = no
+}
+blood_goblin = {
+	stewardship = 1
+	learning = 1
+	fertility = -0.1
+	combat_rating = -10
+	
+	creature_goblin_opinion = 10
+	opinion_of_creature_goblin = 10
+	
+	random = no
+	customizer = no
+}
+blood_murloc = {
+	diplomacy = -1
+	stewardship = -1
+	intrigue = -1
+	learning = -1
+	fertility = 1.5
+	combat_rating = -10
+	
+	creature_murloc_opinion = 15
+	opinion_of_creature_murloc = 15
+	
+	random = no
+	customizer = no
+}
+blood_naga = {
+	combat_rating = 5
+	fertility = -0.1
+	
+	creature_naga_opinion = 20
+	opinion_of_creature_naga = 20
+	
+	random = no
+	customizer = no
+}
+blood_sethrak = {
+	martial = 1
+	health = 0.1
+	combat_rating = 5
+	
+	creature_sethrak_opinion = 10
+	opinion_of_creature_sethrak = 10
+	druidism_group_opinion = 5
+	loa_group_opinion = 5
+	
+	random = no
+	customizer = no
+}
+blood_troll = {
+	fertility = 0.1
+	health = 1.5
+
+	creature_troll_opinion = 10
+	opinion_of_creature_troll = 10
+	
+	random = no
+	customizer = no
+}

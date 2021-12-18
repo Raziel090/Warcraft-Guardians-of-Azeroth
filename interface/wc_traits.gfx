@@ -1117,6 +1117,7 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	
 
 	# Green Dragons
 	spriteType = {
@@ -2341,6 +2342,98 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
+	spriteType = {
+		name = "GFX_trait_blood_blue_dragon"
+		texturefile = "gfx/traits/blood/blood_blue_dragon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_red_dragon"
+		texturefile = "gfx/traits/blood/blood_red_dragon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_green_dragon"
+		texturefile = "gfx/traits/blood/blood_green_dragon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_bronze_dragon"
+		texturefile = "gfx/traits/blood/blood_bronze_dragon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_black_dragon"
+		texturefile = "gfx/traits/blood/blood_black_dragon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_demon"
+		texturefile = "gfx/traits/blood/blood_demon.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_dwarf"
+		texturefile = "gfx/traits/blood/blood_dwarf.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_furbolg"
+		texturefile = "gfx/traits/blood/blood_furbolg.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_goblin"
+		texturefile = "gfx/traits/blood/blood_goblin.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_murloc"
+		texturefile = "gfx/traits/blood/blood_murloc.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_naga"
+		texturefile = "gfx/traits/blood/blood_naga.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_sethrak"
+		texturefile = "gfx/traits/blood/blood_sethrak.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blood_troll"
+		texturefile = "gfx/traits/blood/blood_troll.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
 
 	spriteType = {
 		name = "GFX_trait_infertile"
