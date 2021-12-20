@@ -2399,6 +2399,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_blood_gnome"
+		texturefile = "gfx/traits/blood/blood_gnome.dds"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_blood_goblin"
 		texturefile = "gfx/traits/blood/blood_goblin.dds"
 		noOfFrames = 1

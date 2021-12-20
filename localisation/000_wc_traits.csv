@@ -590,6 +590,24 @@ blood_bronze_dragon;Bronze Dragon Blood;;;;;;;;;;;;;x
 blood_bronze_dragon_desc;Bronze Dragon blood flows through the veins of this character.;;;;;;;;;;;;;x
 blood_black_dragon;Black Dragon Blood;;;;;;;;;;;;;x
 blood_black_dragon_desc;Black Dragon blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_demon;Demon Blood;;;;;;;;;;;;;x
+blood_demon_desc;Demon blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_dwarf;Dwarf Blood;;;;;;;;;;;;;x
+blood_dwarf_desc;Dwarf blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_furbolg;Furbolg Blood;;;;;;;;;;;;;x
+blood_furbolg_desc;Furbolg blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_gnome;Gnome Blood;;;;;;;;;;;;;x
+blood_gnome_desc;Gnome blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_goblin;Goblin Blood;;;;;;;;;;;;;x
+blood_goblin_desc;Goblin blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_murloc;Murloc Blood;;;;;;;;;;;;;x
+blood_murloc_desc;Murloc blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_naga;Naga Blood;;;;;;;;;;;;;x
+blood_naga_desc;Naga blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_sethrak;Sethrak Blood;;;;;;;;;;;;;x
+blood_sethrak_desc;Sethrak blood flows through the veins of this character.;;;;;;;;;;;;;x
+blood_troll;Troll Blood;;;;;;;;;;;;;x
+blood_troll_desc;Troll blood flows through the veins of this character.;;;;;;;;;;;;;x
 infertile;Infertile;Stérile;Unfruchtbar;;;;;;;;;;;x
 infertile_desc;This character is no longer fertile.;Ce personnage n'est plus fertile.;Dieser Charakter ist nicht länger fruchtbar.;;;;;;;;;;;x
 light_foot_leader;Support Infantry Commander;Commandant d'infanterie de soutien;Kommandeur[root.GetinFemale] der Stützverbände;;;;;;;;;;;x

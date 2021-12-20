@@ -1015,6 +1015,20 @@ opinion_of_creature_furbolg = {
 	is_hidden = no
 	max_decimals = 0
 }
+creature_gnome_opinion = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
+opinion_of_creature_gnome = {
+	show_as_percent = no
+	is_good = yes
+	is_monthly = no
+	is_hidden = no
+	max_decimals = 0
+}
 creature_goblin_opinion = {
 	show_as_percent = no
 	is_good = yes

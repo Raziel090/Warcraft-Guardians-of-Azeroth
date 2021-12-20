@@ -2922,6 +2922,22 @@ add_blood_trait_effect = {
 			if = {
 				limit = {
 					NOR = { 
+						trait = creature_gnome
+					}
+					OR = {
+						event_target:target_father = { trait = creature_gnome }
+						event_target:target_mother = { trait = creature_gnome }
+						AND = {
+							event_target:target_father = { trait = blood_gnome }
+							event_target:target_mother = { trait = blood_gnome }
+						}
+					}
+				}
+				add_trait = blood_gnome
+			}
+			if = {
+				limit = {
+					NOR = { 
 						trait = creature_goblin
 					}
 					OR = {

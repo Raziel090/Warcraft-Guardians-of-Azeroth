@@ -4152,6 +4152,7 @@ has_prev_blood_trigger = {
 	trigger_else_if = { limit = { trait = blood_demon	 	} PREV = { trait = blood_demon 				} }
 	trigger_else_if = { limit = { trait = blood_dwarf		 	} PREV = { trait = blood_dwarf 				} }
 	trigger_else_if = { limit = { trait = blood_furbolg	 	} PREV = { trait = blood_furbolg 				} }
+	trigger_else_if = { limit = { trait = blood_gnome		} PREV = { trait = blood_gnome 				} }
 	trigger_else_if = { limit = { trait = blood_goblin		} PREV = { trait = blood_goblin 				} }
 	trigger_else_if = { limit = { trait = blood_murloc		} PREV = { trait = blood_murloc 				} }
 	trigger_else_if = { limit = { trait = blood_naga			} PREV = { trait = blood_naga 				} }
