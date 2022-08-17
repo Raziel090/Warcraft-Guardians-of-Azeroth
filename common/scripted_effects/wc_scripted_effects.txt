@@ -2787,6 +2787,8 @@ add_blood_trait_effect = {
 					OR = {
 						event_target:target_father = { trait = creature_blue_wyrm }
 						event_target:target_mother = { trait = creature_blue_wyrm }
+						event_target:target_father = { trait = creature_blue_dragon }
+						event_target:target_mother = { trait = creature_blue_dragon }
 						AND = {
 							event_target:target_father = { trait = blood_blue_dragon }
 							event_target:target_mother = { trait = blood_blue_dragon }
@@ -2806,6 +2808,8 @@ add_blood_trait_effect = {
 					OR = {
 						event_target:target_father = { trait = creature_red_wyrm }
 						event_target:target_mother = { trait = creature_red_wyrm }
+						event_target:target_father = { trait = creature_red_dragon }
+						event_target:target_mother = { trait = creature_red_dragon }
 						AND = {
 							event_target:target_father = { trait = blood_red_dragon }
 							event_target:target_mother = { trait = blood_red_dragon }
@@ -2825,6 +2829,8 @@ add_blood_trait_effect = {
 					OR = {
 						event_target:target_father = { trait = creature_green_wyrm }
 						event_target:target_mother = { trait = creature_green_wyrm }
+						event_target:target_father = { trait = creature_green_dragon }
+						event_target:target_mother = { trait = creature_green_dragon }
 						AND = {
 							event_target:target_father = { trait = blood_green_dragon }
 							event_target:target_mother = { trait = blood_green_dragon }
@@ -2844,6 +2850,8 @@ add_blood_trait_effect = {
 					OR = {
 						event_target:target_father = { trait = creature_bronze_wyrm }
 						event_target:target_mother = { trait = creature_bronze_wyrm }
+						event_target:target_father = { trait = creature_bronze_dragon }
+						event_target:target_mother = { trait = creature_bronze_dragon }
 						AND = {
 							event_target:target_father = { trait = blood_bronze_dragon }
 							event_target:target_mother = { trait = blood_bronze_dragon }
@@ -2863,6 +2871,8 @@ add_blood_trait_effect = {
 					OR = {
 						event_target:target_father = { trait = creature_black_wyrm }
 						event_target:target_mother = { trait = creature_black_wyrm }
+						event_target:target_father = { trait = creature_black_dragon }
+						event_target:target_mother = { trait = creature_black_dragon }
 						AND = {
 							event_target:target_father = { trait = blood_black_dragon }
 							event_target:target_mother = { trait = blood_black_dragon }

@@ -269,7 +269,7 @@ creature_red_dragon = {
 	martial = 1
 	stewardship = 1
 	learning = 2
-	fertility = -10
+	fertility = 0.5
 	health = 1
 	combat_rating = 60
 
@@ -337,7 +337,7 @@ creature_blue_dragon = {
 	martial = 1
 	stewardship = 1
 	learning = 2
-	fertility = -10
+	fertility = 0.5
 	health = 1
 	combat_rating = 60
 
@@ -407,7 +407,7 @@ creature_green_dragon = {
 	stewardship = 1
 	intrigue = 1
 	learning = 2
-	fertility = -10
+	fertility = 0.5
 	health = 1
 	combat_rating = 60
 
@@ -482,7 +482,7 @@ creature_black_drake = {
 creature_black_dragon = {
 	martial = 2
 	intrigue = 2
-	fertility = -10
+	fertility = 0.5
 	health = 1
 	combat_rating = 60
 
@@ -1472,7 +1472,7 @@ creature_bronze_dragon = {
 	martial = 1
 	stewardship = 2
 	learning = 2
-	fertility = -10
+	fertility = 0.5
 	health = 1
 	combat_rating = 60
 
@@ -1782,7 +1782,7 @@ creature_infinite_dragon = {
 	stewardship = 2
 	intrigue = 2
 	learning = 2
-	fertility = -10
+	fertility = 0.5
 	health = 1
 	combat_rating = 60
 
