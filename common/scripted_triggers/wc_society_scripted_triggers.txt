@@ -248,6 +248,36 @@ has_sisterhood_of_elune_prerequisites = {
 	
 	sisterhood_of_elune_is_visible_trigger = yes
 }
+has_sect_of_the_dragons_prerequisites = {
+	is_untouchable_trigger = no
+	has_invader_title_trigger = no
+	
+	is_adult = yes
+	is_incapable = no
+	prisoner = no
+	is_inaccessible_trigger = no
+	
+	did_not_betray_society_trigger = yes
+	hidden_trigger = {
+		NOT = { has_character_flag = society_join_block }
+	}
+	
+	trigger_if = {
+		limit = { religion = sect_of_the_dragons }
+	}
+	
+	trigger_if = {
+		OR = {
+			learning = 10
+			has_education_learning_trigger = yes
+			is_ascetic_trigger = yes
+			is_alternative_class_trigger = yes
+		}
+	}
+	religion_group = sect_of_the_dragons
+	
+	sect_of_the_dragons_is_visible_trigger = yes
+}
 
 # _is_visible_trigger triggers mean that character see this society
 cenarion_circle_is_visible_trigger = {
@@ -261,6 +291,11 @@ sisterhood_of_elune_is_visible_trigger = {
 	OR = {
 		is_priest_class_trigger = yes
 		religion = kaldorei_religion
+	}
+}
+sect_of_the_dragons_is_visible_trigger = {
+	OR = {
+		religion_group = dragon_religion_group
 	}
 }
 
@@ -278,6 +313,9 @@ sisterhood_of_elune_potential_trigger = {
 		is_priest_class_trigger = yes
 	}
 	religion = kaldorei_religion
+}
+sect_of_the_dragons_potential_trigger = {
+	religion_group = dragon_religion_group
 }
 
 ### QUEST TRIGGERS ###
